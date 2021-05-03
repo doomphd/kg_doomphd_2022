@@ -1,8 +1,10 @@
-var testArray = [10,300,5,6,5123]; //Test array
-var stringArray = ["Zero","One","Two","Three","Four","Five","Six","Seven","Eight","Nine"]; //Array for each number count
+// allow for command line arguments
+process.argv.forEach(function (val, index, testArray) {
+  //console.log(index + ': ' + val);
+  var stringArray = ["Zero","One","Two","Three","Four","Five","Six","Seven","Eight","Nine"]; //Array for each number count
 
 //loop to assign each value in testArray 
-for(var i = 0; i < testArray.length; i++){
+for(var i = 2; i < testArray.length; i++){
     num = testArray[i]; // assign num to be the value of each value in testArray
     var str = ""; // initialize var str
 
@@ -16,8 +18,11 @@ for(var i = 0; i < testArray.length; i++){
 
 }
 console.log(...testArray);
+});
+
+
 
 /*
 TODO: GET RID OF LAST COMMA
-      ALLOW FOR USER INPUT TO REPLACE TES TARRAY
+      get rid of extra arrays prints
 */
