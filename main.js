@@ -1,4 +1,4 @@
-var testArray = [10,300,5,6,5123]; //example array
+var testArray = [10,300,5,6,5123]; //Test array
 var stringArray = ["Zero","One","Two","Three","Four","Five","Six","Seven","Eight","Nine"]; //Array for each number count
 
 //loop to assign each value in testArray 
@@ -19,5 +19,5 @@ console.log(...testArray);
 
 /*
 TODO: GET RID OF LAST COMMA
-      ALLOW FOR USER INPUT TO REPLACE TESTARRAY
+      ALLOW FOR USER INPUT TO REPLACE TES TARRAY
 */
